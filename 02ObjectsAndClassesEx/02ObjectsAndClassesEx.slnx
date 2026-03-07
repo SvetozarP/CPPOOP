@@ -1,0 +1,14 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="01.1sentenceShifter/01.1sentenceShifter.vcxproj" Id="5e6320b5-6088-40d0-b53e-23fa342950bb" />
+  <Project Path="02.1distance/02.1distance.vcxproj" Id="61968ff3-7fe1-4865-8145-1fd2c6ff0c02" />
+  <Project Path="02distance/02distance.vcxproj" Id="cfc34b87-b440-4067-b167-164eb7d03f23" />
+  <Project Path="03.1sales/03.1sales.vcxproj" Id="ad4c13c9-8652-4df9-a68e-21fdb1c60da2" />
+  <Project Path="03sales/03sales.vcxproj" Id="386fbff9-d8ad-4579-8695-118b510dea82" />
+  <Project Path="04.1totalAverageOfStudents/04.1totalAverageOfStudents.vcxproj" Id="49906c1a-f203-4493-8b29-5abd755d5c06" />
+  <Project Path="04totalAverageOfStudents/04totalAverageOfStudents.vcxproj" Id="12034f76-852b-4597-905a-6594dab2e39f" />
+  <Project Path="1sentenceShifter/1sentenceShifter.vcxproj" Id="fe8d8595-5a62-4224-a4d4-e57b3a5ebcae" />
+</Solution>
