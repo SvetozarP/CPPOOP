@@ -17,6 +17,8 @@ This repository contains my solutions to the exercises and assignments from the 
 | **02 Objects and Classes (Ex)** | [03.1 Sales](02ObjectsAndClassesEx/03.1sales/) | Same: sales from stream, report by town. Uses `Sale`, `Sales` (holds vector of sales), and `SalesReport` to build and return the formatted report string. |
 | **02 Objects and Classes (Ex)** | [04 Total Average of Students](02ObjectsAndClassesEx/04totalAverageOfStudents/) | Reads N students (name, surname, average); prints each student line and then the class average. Uses `Student` and a free function `calculateTotalClassAverage`. |
 | **02 Objects and Classes (Ex)** | [04.1 Total Average of Students](02ObjectsAndClassesEx/04.1totalAverageOfStudents/) | Same: N students (name/surname on separate lines), print each and total average. `Student` with `read(istream)` and `print(ostream)`. |
+| **03 Objects and Classes (Advanced)** | [01 Rolling Sticks](03ObjectsAndClassesAdvanced/01rollingSticks/) | Console animation: sticks (characters cycling `_` `\` `|` `/`) roll along a 50-character line; new sticks spawn randomly. Uses `Stick` (position, rotation, `nextAnimation()`), a list of sticks, and platform-specific `clearScreen()` (Windows/Linux). |
+| **03 Objects and Classes (Advanced)** | [02 Fraction Class](03ObjectsAndClassesAdvanced/02fractionClass/) | `Fraction` class with reduce (gcd), `operator<` (for `set`), `operator==`, `operator+`/`operator-`, prefix/postfix `operator++`, and stream I/O. Demo: set of fractions, equality, read/write, increment, and arithmetic. |
 
 Solutions are organized by topic; each is written in C++ and uses OOP concepts (classes, encapsulation, STL containers, etc.).
 

@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="01rollingSticks/01rollingSticks.vcxproj" />
+  <Project Path="02fractionClass/02fractionClass.vcxproj" />
+</Solution>
