@@ -1,0 +1,13 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="01car/01car.vcxproj" Id="2bdbadd8-6a23-41e3-af8b-917704648b58" />
+  <Project Path="02sumOfVectors/02sumOfVectors.vcxproj" Id="6a2cc96f-900c-4e69-910f-ff0e70f2e4e9" />
+  <Project Path="03operators/03operators.vcxproj" Id="14f36ed6-4da1-44e7-bef1-4c8782975b07" />
+  <Project Path="04resources/04resources.vcxproj" Id="6ecca504-7a95-461b-84d6-6199ac0e3f28" />
+  <Project Path="05lectures/05lectures.vcxproj" Id="d2d926d4-4ac9-4135-80e8-0fa71ae942a6" />
+  <Project Path="06memoryAllocator/06memoryAllocator.vcxproj" Id="9d0c5a13-5b07-49d4-b38f-2270d7bf71dd" />
+  <Project Path="07bytesParsing/07bytesParsing.vcxproj" Id="bea40310-140b-4eb4-93f2-405e167ee9b6" />
+</Solution>
