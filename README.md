@@ -31,6 +31,9 @@ This repository contains my solutions to the exercises and assignments from the 
 | **05 Code Organisation and Templates** | [03 Parser](05CodeOrganisationAndTemplates/03parser/) | Template `Parser<T>`: reads type (`i`/int, `w`/string, `s`/Song), a stop line, then tokens until that line; fills a vector and prints it. Uses `PrintUtils` and stream I/O for `Song` (name, length). |
 | **05 Code Organisation and Templates** | [04 Split and Join](05CodeOrganisationAndTemplates/04splitAndJoin/) | Template `split<T>(line, separator)` and `join(container, joinStr)`: reads separator, line, type (`i`/`w`/`s`), and join string; splits the line into `vector<T>`, joins with the given string, prints result. |
 | **05 Code Organisation and Templates** | [05 Sorting](05CodeOrganisationAndTemplates/05sorting/) | Like 03 Parser but stores in a `set` with comparator `Reverse<T, LessThan<T>>` (reverse order). Reads int/string/Song until stop line; prints container. Uses `Parser`, `Comparators`, `PrintUtils`, and `Song`. |
+| **06 OOP Constructors** | [01 Echo](06OOPConstructors/01echo/) | Contact Manager UI: optional echo/hints; uses `Echo`, `EmailContact`, and `ContactManagerUI`. Creates a vector of contacts, runs the UI with `ui.start()`; demonstrates constructor usage and multi-file organisation. |
+| **06 OOP Constructors** | [02 Notes](06OOPConstructors/02notes/) | Template `NoteParser<Naming>` with a translator; uses `SolfegeNoteNaming` to convert note text (e.g. Do, Re, Mi) to `NoteName`. Reads note strings until `end`, stores in a vector, prints. |
+| **06 OOP Constructors** | [03 Vectors](06OOPConstructors/03vectors/) | Reads N vectors from input; stores in a `multiset<Vector, ReverseComparer<Vector, VectorLengthComparer>>` (sorted by length, reverse order); prints each. Uses custom `Vector` and `VectorComparisons`. |
 
 Solutions are organized by topic; each is written in C++ and uses OOP concepts (classes, encapsulation, STL containers, etc.).
 
