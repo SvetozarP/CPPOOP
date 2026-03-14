@@ -1,0 +1,11 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="01compile/01compile.vcxproj" />
+  <Project Path="02censorship/02censorship.vcxproj" />
+  <Project Path="03parser/03parser.vcxproj" />
+  <Project Path="04splitAndJoin/04splitAndJoin.vcxproj" />
+  <Project Path="05sorting/05sorting.vcxproj" />
+</Solution>
