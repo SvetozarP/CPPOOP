@@ -1,0 +1,9 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="01tryParse/01tryParse.vcxproj" Id="442d42cc-4a5c-4785-a858-c51f5e78353a" />
+  <Project Path="02find/02find.vcxproj" Id="651a123d-c013-4028-bc75-4e2a481ac949" />
+  <Project Path="03order/03order.vcxproj" Id="8167f0d6-efd7-44cc-81a5-ea4d5e56850b" />
+</Solution>

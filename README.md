@@ -34,6 +34,9 @@ This repository contains my solutions to the exercises and assignments from the 
 | **06 OOP Constructors** | [01 Echo](06OOPConstructors/01echo/) | Contact Manager UI: optional echo/hints; uses `Echo`, `EmailContact`, and `ContactManagerUI`. Creates a vector of contacts, runs the UI with `ui.start()`; demonstrates constructor usage and multi-file organisation. |
 | **06 OOP Constructors** | [02 Notes](06OOPConstructors/02notes/) | Template `NoteParser<Naming>` with a translator; uses `SolfegeNoteNaming` to convert note text (e.g. Do, Re, Mi) to `NoteName`. Reads note strings until `end`, stores in a vector, prints. |
 | **06 OOP Constructors** | [03 Vectors](06OOPConstructors/03vectors/) | Reads N vectors from input; stores in a `multiset<Vector, ReverseComparer<Vector, VectorLengthComparer>>` (sorted by length, reverse order); prints each. Uses custom `Vector` and `VectorComparisons`. |
+| **07 OOP Constructors (Ex)** | [01 Try Parse](07OOPConstructorsEx/01tryParse/) | Reads two strings; `tryParse` attempts to parse each into an `int`. If both succeed, prints their sum; otherwise prints parsed values or `[error] <original string>` for failures. |
+| **07 OOP Constructors (Ex)** | [02 Find](07OOPConstructorsEx/02find/) | Reads `Company` objects from lines until `end`, then an id; `find(companies, id)` returns the matching `Company*` or `nullptr`. Prints the company or `[not found]`; heap-allocated companies are deleted. |
+| **07 OOP Constructors (Ex)** | [03 Order](07OOPConstructorsEx/03order/) | `OrderedInserter` keeps a `vector<const Company*>` sorted while inserting heap-allocated companies read until `end`. Prints all companies in order, then deletes them. |
 
 Solutions are organized by topic; each is written in C++ and uses OOP concepts (classes, encapsulation, STL containers, etc.).
 
