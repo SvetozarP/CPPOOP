@@ -37,6 +37,11 @@ This repository contains my solutions to the exercises and assignments from the 
 | **07 OOP Constructors (Ex)** | [01 Try Parse](07OOPConstructorsEx/01tryParse/) | Reads two strings; `tryParse` attempts to parse each into an `int`. If both succeed, prints their sum; otherwise prints parsed values or `[error] <original string>` for failures. |
 | **07 OOP Constructors (Ex)** | [02 Find](07OOPConstructorsEx/02find/) | Reads `Company` objects from lines until `end`, then an id; `find(companies, id)` returns the matching `Company*` or `nullptr`. Prints the company or `[not found]`; heap-allocated companies are deleted. |
 | **07 OOP Constructors (Ex)** | [03 Order](07OOPConstructorsEx/03order/) | `OrderedInserter` keeps a `vector<const Company*>` sorted while inserting heap-allocated companies read until `end`. Prints all companies in order, then deletes them. |
+| **07 OOP Constructors (Ex)** | [04 Profits](07OOPConstructorsEx/04profits/) | Reads `Company` lines until `end`, then `ProfitCalculator` lines per company id until `end`. `getProfitReport` builds a profit report for the inclusive range from first to last company using the calculators map. |
+| **07 OOP Constructors (Ex)** | [05 Register](07OOPConstructorsEx/05register/) | `Register` with fixed capacity: `add(Company)` and `get(id)`. Replays the same input `numRuns` times to verify lookup consistency; prints the final looked-up company. |
+| **07 OOP Constructors (Ex)** | [06 Words](07OOPConstructorsEx/06words/) | `Word` in a `set` tracks word text and occurrence count; two input lines (separated by `---`) are processed; prints each distinct word with its count. |
+| **07 OOP Constructors (Ex)** | [07 Divisible By 45](07OOPConstructorsEx/07divisibleBy45/) | `BigInt` range from `s` to `e`; increments by 1 and prints values divisible by 45 using digit rules for 5 and 9 (no full division on huge numbers). |
+| **07 OOP Constructors (Ex)** | [08 Sequences](07OOPConstructorsEx/08sequences/) | Template `Sequence<T, Generator>` with `generateNext` and iteration; `IntegersGenerator` or `FibonacciGenerator` functors. Reads how many values to generate, prints them, repeats interactively. |
 
 Solutions are organized by topic; each is written in C++ and uses OOP concepts (classes, encapsulation, STL containers, etc.).
 

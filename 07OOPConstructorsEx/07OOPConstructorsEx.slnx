@@ -6,4 +6,9 @@
   <Project Path="01tryParse/01tryParse.vcxproj" Id="442d42cc-4a5c-4785-a858-c51f5e78353a" />
   <Project Path="02find/02find.vcxproj" Id="651a123d-c013-4028-bc75-4e2a481ac949" />
   <Project Path="03order/03order.vcxproj" Id="8167f0d6-efd7-44cc-81a5-ea4d5e56850b" />
+  <Project Path="04profits/04profits.vcxproj" Id="e6f028a6-daa1-48ab-b24f-770538575d65" />
+  <Project Path="05register/05register.vcxproj" Id="edfa3b53-d310-4dcf-b132-ed1c75b1bac9" />
+  <Project Path="06words/06words.vcxproj" Id="2638bd8d-c86f-4db2-8dac-44d08c3d09f8" />
+  <Project Path="07divisibleBy45/07divisibleBy45.vcxproj" Id="9446df44-5365-45fb-b863-263986721d0d" />
+  <Project Path="08sequences/08sequences.vcxproj" Id="42113f1e-6b66-403a-86db-202f2aa98de8" />
 </Solution>
