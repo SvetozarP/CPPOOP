@@ -1,0 +1,11 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="01smartArray/01smartArray.vcxproj" />
+  <Project Path="02smartArrayResize/02smartArrayResize.vcxproj" />
+  <Project Path="03smartArrayCopyIdiom/03smartArrayCopyIdiom.vcxproj" />
+  <Project Path="04smartArrayIterator/04smartArrayIterator.vcxproj" />
+  <Project Path="05smartArrayRuleOf0/05smartArrayRuleOf0.vcxproj" />
+</Solution>

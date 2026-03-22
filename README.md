@@ -42,6 +42,11 @@ This repository contains my solutions to the exercises and assignments from the 
 | **07 OOP Constructors (Ex)** | [06 Words](07OOPConstructorsEx/06words/) | `Word` in a `set` tracks word text and occurrence count; two input lines (separated by `---`) are processed; prints each distinct word with its count. |
 | **07 OOP Constructors (Ex)** | [07 Divisible By 45](07OOPConstructorsEx/07divisibleBy45/) | `BigInt` range from `s` to `e`; increments by 1 and prints values divisible by 45 using digit rules for 5 and 9 (no full division on huge numbers). |
 | **07 OOP Constructors (Ex)** | [08 Sequences](07OOPConstructorsEx/08sequences/) | Template `Sequence<T, Generator>` with `generateNext` and iteration; `IntegersGenerator` or `FibonacciGenerator` functors. Reads how many values to generate, prints them, repeats interactively. |
+| **08 Rule of 3-5-0** | [01 Smart Array (Rule of 3)](08RuleOf3-5-0/01smartArray/) | `SmartArray<T>` with dynamic storage: destructor, copy constructor, and copy assignment (Rule of Three). Indexing, `print()`, copy/assign demos. |
+| **08 Rule of 3-5-0** | [02 Smart Array Resize](08RuleOf3-5-0/02smartArrayResize/) | Extends `SmartArray` with `resize()` while keeping correct copying semantics; demo grows/shrinks the array and assigns elements. |
+| **08 Rule of 3-5-0** | [03 Smart Array Copy Idiom](08RuleOf3-5-0/03smartArrayCopyIdiom/) | Same resize behaviour; implements assignment via the **copy-and-swap** idiom for exception-safe, self-assignment-safe `operator=`. |
+| **08 Rule of 3-5-0** | [04 Smart Array Iterator](08RuleOf3-5-0/04smartArrayIterator/) | Adds iterators (`begin`/`end`) so `SmartArray` works with range-based `for` and mutates elements through references. |
+| **08 Rule of 3-5-0** | [05 Smart Array (Rule of 0)](08RuleOf3-5-0/05smartArrayRuleOf0/) | **Rule of Zero**: `SmartArray` uses a standard container (or similar) to own memory so no user-defined destructor/copy/move are needed; same demo as 04. |
 
 Solutions are organized by topic; each is written in C++ and uses OOP concepts (classes, encapsulation, STL containers, etc.).
 
