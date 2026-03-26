@@ -47,6 +47,10 @@ This repository contains my solutions to the exercises and assignments from the 
 | **08 Rule of 3-5-0** | [03 Smart Array Copy Idiom](08RuleOf3-5-0/03smartArrayCopyIdiom/) | Same resize behaviour; implements assignment via the **copy-and-swap** idiom for exception-safe, self-assignment-safe `operator=`. |
 | **08 Rule of 3-5-0** | [04 Smart Array Iterator](08RuleOf3-5-0/04smartArrayIterator/) | Adds iterators (`begin`/`end`) so `SmartArray` works with range-based `for` and mutates elements through references. |
 | **08 Rule of 3-5-0** | [05 Smart Array (Rule of 0)](08RuleOf3-5-0/05smartArrayRuleOf0/) | **Rule of Zero**: `SmartArray` uses a standard container (or similar) to own memory so no user-defined destructor/copy/move are needed; same demo as 04. |
+| **09 Rule of 3-5-0 (Ex)** | [01 Min By](09RuleOf3-5-0Ex/01minBy/) | Template `minBy(Iterable, Compare)`: reads a line of strings and a mode—lexicographically smallest (1), shortest string (2), or longest string (3)—and prints the chosen element. |
+| **09 Rule of 3-5-0 (Ex)** | [02 Remove Invalid](09RuleOf3-5-0Ex/02removeInvalid/) | Builds a `list<Company*>` from id/name lines until `end`; every 10 insertions runs `removeInvalid`; final cleanup pass, then prints and deletes remaining companies. |
+| **09 Rule of 3-5-0 (Ex)** | [03 Make Company](09RuleOf3-5-0Ex/03makeCompany/) | Factory `makeCompany(properties)` builds a company from parsed line fields; copies the handle/result and prints `toString()` for each line until `end` (exercises resource-safe company creation). |
+| **09 Rule of 3-5-0 (Ex)** | [04 Parse Unique Companies](09RuleOf3-5-0Ex/04parseUniqueCompanies/) | Buffers lines until `end`, reads uniqueness mode (by id, by name, or by name+id). `parseUniqueCompanies` returns a dynamic array of unique `Company` objects; prints them and `delete[]`s storage. |
 
 Solutions are organized by topic; each is written in C++ and uses OOP concepts (classes, encapsulation, STL containers, etc.).
 

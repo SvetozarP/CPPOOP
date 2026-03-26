@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="01minBy/01minBy.vcxproj" />
+  <Project Path="02removeInvalid/02removeInvalid.vcxproj" />
+  <Project Path="03makeCompany/03makeCompany.vcxproj" />
+  <Project Path="04parseUniqueCompanies/04parseUniqueCompanies.vcxproj" />
+</Solution>
