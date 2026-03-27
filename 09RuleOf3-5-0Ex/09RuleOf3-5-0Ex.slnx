@@ -3,8 +3,13 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="01minBy/01minBy.vcxproj" />
-  <Project Path="02removeInvalid/02removeInvalid.vcxproj" />
-  <Project Path="03makeCompany/03makeCompany.vcxproj" />
-  <Project Path="04parseUniqueCompanies/04parseUniqueCompanies.vcxproj" />
+  <Project Path="01minBy/01minBy.vcxproj" Id="90e19197-b5c8-4d5b-a1ee-4203348b1239" />
+  <Project Path="02removeInvalid/02removeInvalid.vcxproj" Id="17126070-14f7-472b-bd0b-ba74cce80323" />
+  <Project Path="03makeCompany/03makeCompany.vcxproj" Id="0da6b499-a881-42fa-9d43-6680806837ec" />
+  <Project Path="04parseUniqueCompanies/04parseUniqueCompanies.vcxproj" Id="e9fddfac-7dd4-44fc-9d85-29414993c34b" />
+  <Project Path="05registerOfThree/05registerOfThree.vcxproj" Id="9c16f952-9025-4886-9de1-9459d62f872e" />
+  <Project Path="061arrayOfPointers/061arrayOfPointers.vcxproj" Id="1148434e-229e-4fc0-b526-ed5a7d9742b7" />
+  <Project Path="06arrayOfPointers/06arrayOfPointers.vcxproj" Id="5a697726-016f-4a9f-b6d2-4190510595ae" />
+  <Project Path="07list/07list.vcxproj" Id="80bc7fd0-35b4-4043-8f3b-46b6f07fe8fb" />
+  <Project Path="08overloadingMadness/08overloadingMadness.vcxproj" Id="57168546-2224-4388-94a9-49d126f62564" />
 </Solution>
