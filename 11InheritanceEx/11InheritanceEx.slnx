@@ -1,0 +1,11 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="01maxSumArray/01maxSumArray.vcxproj" />
+  <Project Path="02shapes/02shapes.vcxproj" />
+  <Project Path="03indexedSet/03indexedSet.vcxproj" />
+  <Project Path="04memoryAllocatorReforged/04memoryAllocatorReforged.vcxproj" />
+  <Project Path="05snake/05snake.vcxproj" />
+</Solution>

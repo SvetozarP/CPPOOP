@@ -3,6 +3,7 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="01sortPointers/01sortPointers.vcxproj" />
-  <Project Path="02ranges/02ranges.vcxproj" />
+  <Project Path="01sortPointers/01sortPointers.vcxproj" Id="037410a8-e0cb-440f-9c85-885708c66388" />
+  <Project Path="02ranges/02ranges.vcxproj" Id="881321a6-f0dd-4b41-a4cb-504960fe8883" />
+  <Project Path="03serialize/03serialize.vcxproj" Id="4d45e2de-7a6b-4f7b-8ae2-eaeebd8b9d0b" />
 </Solution>
