@@ -3,9 +3,10 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="01maxSumArray/01maxSumArray.vcxproj" />
-  <Project Path="02shapes/02shapes.vcxproj" />
-  <Project Path="03indexedSet/03indexedSet.vcxproj" />
-  <Project Path="04memoryAllocatorReforged/04memoryAllocatorReforged.vcxproj" />
-  <Project Path="05snake/05snake.vcxproj" />
+  <Project Path="01.1maxSumArray/01.1maxSumArray.vcxproj" Id="4762b766-3347-4427-93b8-d6568fab0259" />
+  <Project Path="01maxSumArray/01maxSumArray.vcxproj" Id="dc67c946-b933-43ba-a8c8-13c216285e9e" />
+  <Project Path="02shapes/02shapes.vcxproj" Id="0aeff7ad-ea18-463a-a523-9b43d8d04782" />
+  <Project Path="03indexedSet/03indexedSet.vcxproj" Id="a026b444-8a2b-447b-a0d7-b5b2e9057c15" />
+  <Project Path="04memoryAllocatorReforged/04memoryAllocatorReforged.vcxproj" Id="6b90c0b6-69aa-4e6b-8d2b-a9330883875c" />
+  <Project Path="05snake/05snake.vcxproj" Id="15cb5918-f50f-4a4f-8280-a926e2c0bb1c" />
 </Solution>

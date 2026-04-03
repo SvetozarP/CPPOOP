@@ -45,10 +45,18 @@ size_t IndexedSet::size() const {
 }
 
 const Value& IndexedSet::operator[](size_t index) {
-    if (valuesArray == nullptr && !valuesSet.empty()) {
+    //if (valuesArray == nullptr && !valuesSet.empty()) {
+    //    buildIndex();
+    //}
+    //return valuesArray[index];
+
+	if (valuesArray == nullptr) {
+        // no cache yet, do lazy init.
         buildIndex();
     }
-    return valuesArray[index];
+
+	return valuesArray[index];
+
 }
 
 IndexedSet& IndexedSet::operator=(const IndexedSet& other) {
