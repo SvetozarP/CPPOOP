@@ -64,6 +64,7 @@ This repository contains my solutions to the exercises and assignments from the 
 | **11 Inheritance (Ex)** | [03 Indexed Set](11InheritanceEx/03indexedSet/) | `IndexedSet` with `add`, `operator[]`, and `size`; reads multiple sets (lines until `end`), then index list; picks the set with the largest **sum of elements at those indices** and prints it. |
 | **11 Inheritance (Ex)** | [04 Memory Allocator Reforged](11InheritanceEx/04memoryAllocatorReforged/) | Command-driven allocator on a `vector<MemoryNode>` of fixed `BUFFER_SIZE`; reads N commands, `executeCommand` per line, `ErrorCode` and `printResult` (inheritance-based refactor of the memory exercise). |
 | **11 Inheritance (Ex)** | [05 Snake](11InheritanceEx/05snake/) | Snake game: `parseFieldConfig` reads grid size, start position, obstacles, and power-ups; `CommandExecutor` runs movement commands while the game is active. |
+| **12 Polymorphism** | [01 Particle System](12Polymorphism/01particleSystem/) | Console particle simulation: base `Particle` with virtual `update()`; derived types (e.g. raindrop, snowflake, meteorite, lightning). `Engine` spawns random particles, `renderParticles` draws to `ConsoleScreen`, `updateParticles` steps and collects new particles; main loop on an 80×20 grid with a short sleep between frames. |
 
 Solutions are organized by topic; each is written in C++ and uses OOP concepts (classes, encapsulation, STL containers, etc.).
 
