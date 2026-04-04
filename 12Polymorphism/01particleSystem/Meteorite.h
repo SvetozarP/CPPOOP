@@ -1,4 +1,4 @@
-#ifndef METEORITE_H
+ #ifndef METEORITE_H
 #define METEORITE_H
 
 #include <cstdlib>

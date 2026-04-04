@@ -66,6 +66,13 @@ This repository contains my solutions to the exercises and assignments from the 
 | **11 Inheritance (Ex)** | [05 Snake](11InheritanceEx/05snake/) | Snake game: `parseFieldConfig` reads grid size, start position, obstacles, and power-ups; `CommandExecutor` runs movement commands while the game is active. |
 | **12 Polymorphism** | [01 Particle System](12Polymorphism/01particleSystem/) | Console particle simulation: base `Particle` with virtual `update()`; derived types (e.g. raindrop, snowflake, meteorite, lightning). `Engine` spawns random particles, `renderParticles` draws to `ConsoleScreen`, `updateParticles` steps and collects new particles; main loop on an 80×20 grid with a short sleep between frames. |
 
+## Exams
+
+| Exam | Task | Description |
+|------|------|-------------|
+| **27.08.2023** | [01 Virtual Book](Exams/270823/270823/01virtualBook/) | Reads structured input (`InputParser`): page content and command list. Builds a `VirtualBook` of `VirtualPage` objects, then runs commands—`print_all` (dump content), `remove_last`, or `remove_all`. |
+| **27.08.2023** | [02 Gas Pumps](Exams/270823/270823/02gasPumps/) | Line-driven gas reservoir: reads uppercase commands until `END`; `Command::CommandFactory` builds `InitCommand`, `InCommand`, `OutCommand`, `DemandCommand`, or `EndCommand`. `GasReservoir` singleton processes INIT / GASIN / GASOUT / DEMAND in order. |
+
 Solutions are organized by topic; each is written in C++ and uses OOP concepts (classes, encapsulation, STL containers, etc.).
 
 ## Requirements

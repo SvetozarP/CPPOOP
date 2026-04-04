@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="01virtualBook/01virtualBook.vcxproj" />
+  <Project Path="02gasPumps/02gasPumps.vcxproj" />
+</Solution>
