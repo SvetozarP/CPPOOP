@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="01aggregators/01aggregators.vcxproj" />
+  <Project Path="02typedStream/02typedStream.vcxproj" />
+  <Project Path="03calculator/03calculator.vcxproj" />
+  <Project Path="04pistolRound/04pistolRound.vcxproj" />
+</Solution>
