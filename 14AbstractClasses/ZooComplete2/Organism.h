@@ -3,7 +3,10 @@
 
 #include <string>
 
-class Organism {
+#include "Actionable.h"
+#include "Position.h"
+
+class Organism : public Actionable {
 
 	std::string name;
 	Position position;
@@ -13,8 +16,6 @@ class Organism {
         Organism(const std::string & name, Position position) : name(name), position(position) {}
 
         virtual ~Organism() = default;
-
-        virtual void act() = 0;
 
         virtual std::string getImage() const = 0;
 

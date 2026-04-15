@@ -10,54 +10,27 @@
 #include "Organism.h"
 #include "Cat.h"
 #include "Mouse.h"
+#include "Engine.h"
 
 const int WORLD_SIZE = 25;
 
 int Position::MinPosition = 0;
 int Position::MaxPosition = WORLD_SIZE - 1;
 
-class Engine {
-
-	std::vector<Organism*> animals;
-	Renderer& rend;
-
-public:
-
-	Engine(Renderer& rend)
-		: rend(rend)
-	{
-		animals.push_back(new Cat(Position(0, 0)));
-		animals.push_back(new Mouse(Position(1, 1)));
-		animals.push_back(new Cat(Position(0, 0)));
-		animals.push_back(new Mouse(Position(1, 1)));
-		animals.push_back(new Cat(Position(0, 0)));
-		animals.push_back(new Mouse(Position(1, 1)));
-		animals.push_back(new Cat(Position(0, 0)));
-		animals.push_back(new Mouse(Position(1, 1)));
-		animals.push_back(new Cat(Position(0, 0)));
-		animals.push_back(new Mouse(Position(1, 1)));
-	}
-
-	~Engine() {
-		for (Organism* cur : animals)
-			delete cur;
-	}
-
-	void act() {
-		for (auto o : animals)
-			o->act();
-	}
-
-	void render() {
-		for (auto o : animals)
-			rend.render(o->getPosition(), o->getImage());
-	}
-
-};
+void init(Engine& e) {
+	e.add(std::shared_ptr<Organism>(new Cat(Position(0, 0))));
+	e.add(std::shared_ptr<Organism>(new Mouse(Position(1, 1))));
+	e.add(std::shared_ptr<Organism>(new Cat(Position(0, 0))));
+	e.add(std::shared_ptr<Organism>(new Mouse(Position(1, 1))));
+	e.add(std::shared_ptr<Organism>(new Cat(Position(0, 0))));
+	e.add(std::shared_ptr<Organism>(new Mouse(Position(1, 1))));
+}
 
 int main() {
 	Renderer r(WORLD_SIZE);
 	Engine e(r);
+
+	init(e);
 
 	while (true) {
 

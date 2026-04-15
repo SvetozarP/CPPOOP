@@ -127,11 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="RenderingUtils.cpp" />
     <ClCompile Include="ZooComplete2.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Actionable.h" />
     <ClInclude Include="Cat.h" />
     <ClInclude Include="ConsoleUtils.h" />
+    <ClInclude Include="Engine.h" />
     <ClInclude Include="Mouse.h" />
     <ClInclude Include="Organism.h" />
     <ClInclude Include="Position.h" />

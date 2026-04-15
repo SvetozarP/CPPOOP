@@ -3,6 +3,6 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="ZooComplete1/ZooComplete1.vcxproj" />
-  <Project Path="ZooComplete2/ZooComplete2.vcxproj" />
+  <Project Path="ZooComplete1/ZooComplete1.vcxproj" Id="d0b53cfe-4ed7-4660-bb7d-de1f2ab6eb07" />
+  <Project Path="ZooComplete2/ZooComplete2.vcxproj" Id="840f21f7-8c9c-42e9-bd25-f7e879f13149" />
 </Solution>
