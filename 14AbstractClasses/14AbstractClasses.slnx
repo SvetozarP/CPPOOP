@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="ZooComplete1/ZooComplete1.vcxproj" />
+  <Project Path="ZooComplete2/ZooComplete2.vcxproj" />
+</Solution>

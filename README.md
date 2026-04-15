@@ -69,6 +69,8 @@ This repository contains my solutions to the exercises and assignments from the 
 | **13 Polymorphism (Ex)** | [02 Typed Stream](13PolymorphismEx/02typedStream/) | Reads input lines until `end`, then a type (`int`, `string`, or `vector`); template `TypedStream<T>` with `IntStream`, `StringStream`, and `VectorStream` overrides `operator>>` to parse values; `readToEnd()` fills a `vector<T>` and prints it. |
 | **13 Polymorphism (Ex)** | [03 Calculator](13PolymorphismEx/03calculator/) | Stack-style calculator: `CalculationEngine` applies `Operation` objects to operands. `AdvancedInterpreter` (via `buildInterpreter`) parses tokens until `end`; supports numbers, `*`, `/`, and memory commands `ms` / `mr`; prints the final result. |
 | **13 Polymorphism (Ex)** | [04 Pistol Round](13PolymorphismEx/04pistolRound/) | Two-player duel: each player has health and armor, then equips a pistol (`Glock` or `DesertEagle` via `PistolType`). Abstract `Pistol` with virtual `fire()`; players alternate turns until one’s vitals drop to zero and the winner is printed. |
+| **14 Abstract Classes** | [01 Zoo Complete 1](14AbstractClasses/ZooComplete1/) | Console zoo on a 25×25 grid: abstract `Organism` with pure virtual `act()`, `getImage()`, and protected `move()`; `Cat` (random fast/slow/still pacing, blinking ASCII) and `Mouse` (diagonal hops, random stops). `Engine` drives a `vector<Organism*>`, `Renderer` draws into a buffer and flushes each tick (`RenderingUtils`, `ConsoleUtils`, `Position`). |
+| **14 Abstract Classes** | [02 Zoo Complete 2](14AbstractClasses/ZooComplete2/) | Same abstract zoo design as Zoo Complete 1 (`Organism` / `Cat` / `Mouse`, `Engine`, `Renderer`); separate Visual Studio project folder for the second “complete” milestone build. |
 
 ## Exams
 
