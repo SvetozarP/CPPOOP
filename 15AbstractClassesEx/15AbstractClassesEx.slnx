@@ -1,0 +1,13 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="01filters/01filters.vcxproj" />
+  <Project Path="02ids/02ids.vcxproj" />
+  <Project Path="03files/03files.vcxproj" />
+  <Project Path="04extractor/04extractor.vcxproj" />
+  <Project Path="05tree/05tree.vcxproj" />
+  <Project Path="06explorer/06explorer.vcxproj" />
+  <Project Path="07warcraftIV/07warcraftIV.vcxproj" />
+</Solution>
